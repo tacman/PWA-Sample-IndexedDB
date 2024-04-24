@@ -1,3 +1,13 @@
+# About this Fork
+
+This is the codebase for the tutorial at https://developers.google.com/codelabs/pwa-training/pwa03--going-offline#0, but instead of using node for the server, it uses Symfony and spmoky-labs/pwa-bundle
+
+In addition to using generated sw.js and manifest files, the api call to get events comes from the server, and could come from a database.  An exercise would be to keep the postgres database and client in sync.
+
+To run locally, install the Symfony CLI and PHP 8
+
+```bash
+```
 # Data driven PWA
 
 In this codelab, you’ll use [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) and [Workbox](https://workboxjs.org/) to create a fully offline-capable, data-driven app. You'll also use [Background Sync](https://developers.google.com/web/updates/2015/12/background-sync) to sync your app with the server even when your web app is closed.
